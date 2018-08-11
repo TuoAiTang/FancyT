@@ -1,0 +1,230 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+body{font-size:16px; font-family:"宋体"; background:url(../images/bg.jpg)}
+img{border:0;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+/*清除超链接下划线*/
+a {text-decoration:none;}
+
+/*前台首页布局*/
+/*页头样式*/
+#header_unique{ width:960px; height:55px; margin:0 auto; background:#FFFFFF;}
+/*导航栏样式*/
+#nav_unique{ width:960px; height:auto; margin:0 auto; background:#EE0000;}
+/*广告栏样式*/
+#banner{ width:960px; height:auto; margin:0 auto; background:#FFFFFF;}
+/*商品展示区块样式*/
+#main{ width:960px; height:auto; margin:0 auto; background:#FFFFFF; padding-top:10px; padding-bottom:10px;}
+/*页尾样式*/
+#footer{ width:960px; height:auto; margin:0 auto; background:#FFFFFF;}
+/*页头样式*/
+.logo{ width:135px; height:55px; float:left;}
+.search{ width:500px; height:55px; float:left;}
+.input1{ display:block; width:300px; height:30px; margin-top:10px; margin-left:150px;float:left; border:1px solid #0099CC;}
+.input2{ display:block; width:69px; height:32px; margin-top:10px; float:left;}
+.login{ width:225px; height:55px; float:left; text-align:center; line-height:55px;}
+/*导航栏nav*/
+.navigator{width:938px; height:50px; float:left;}
+.navLeft { width:11px; height:50px; float:left; background:url(../images/navbg.png) no-repeat;}
+.navRight { width:11px; height:50px; float:left; background:url(../images/navbg.png) no-repeat;}
+.navCenter { width:938px; height:50px; float:left; border-color: red}
+.navCenter ul { width:938px; height:50px;  padding-top:8px; margin:0 auto;}
+.navCenter ul li { width:133px;line-height:50px; text-align:center; float:left;}
+.navCenter ul li.nobg { background:none;}
+.navCenter ul li a {text-decoration: none;}
+/*广告栏banner样式*/
+.scrollDiv { width:960px; height:300px; margin:0 auto; overflow: hidden; white-space: nowrap;}
+.scrollBegin, .scrollEnd{display:inline;}
+/*商品类别Sort样式*/
+#sort{ width:960px; height:25px; margin:0 auto; padding-top:5px; text-align:center;}
+#sort ul { display:inline; height:25px; text-align:center;}
+#sort ul li { display:inline; width:65px; height:25px; line-height:25px; text-align:center;}
+/*首页商品展示区块样式*/
+#content {width:960px; height:auto; margin:0 auto; background:#FFFFFF;}
+#goodsFree { wdith:960px; height:auto; margin:0 auto;}
+#goodsNew { wdith:960px; height:auto; margin:0 auto;}
+.goodsFree { width:960px; height:auto; margin-top:5px; margin-left:auto; margin-right:auto; }
+.goodsNew { width:960px; height:auto; margin-top:5px; margin-left:auto; margin-right:auto; }
+.goodsOne { width:160px; height:auto; float:left}
+.goodsOneImg { display:block; width:140px; height:200px; margin:0 auto;}
+.goodsOneText { width:160px; height:auto; maigin:0 auto; line-height:30px; text-align:center;}
+.keywords{margin-left:150px; text-align:left; line-height:20px;}
+/*页尾样式*/
+/*页尾超链接样式*/
+.link {width:960px; height:auto; margin:0 auto; background:#CCC;}
+.linkName {  width:120px; height:30px; float:left; text-align:center; line-height:30px;}
+.bgLoginA {  width:100px; height:60px; text-align:center; line-height:60px; float:left;background:#666666;}
+.caution {  width:860px; height:60px; text-align:center; line-height:20px; float:left;background:#666666;}
+/*商城公告样式*/
+.affiche{width:200px; height:200px; position:fixed; right:0; top:200px; background:#FFFFFF; border:#CCC solid 1px;}
+.afficheTitle {  width:100px; height:50px; text-align:left; line-height:50px; border-bottom:#CCC solid 1px;float:left; background:red;color:white;}
+.affiche_More {  width:100px; height:50px; text-align:right; line-height:50px;border-bottom:#CCC solid 1px;float:left; background:red;color: white;}
+.afficheNo { width:200px; height:150px; margin:0 auto; text-align:center; line-height:150px;}
+.affiche ul { width:200px; height:150px; margin:0 auto;overflow:hidden;}
+.affiche ul li { width:180px; height:30px; line-height:30px; overflow:hidden;}
+.affiche ul li img {vertical-align:-3px}
+.afficheTableNo{ width:960px; height:320px; margin:0 auto; text-align:center; line-height:320px;}
+.afficheTable{ width:960px; height:320px; margin:0 auto;}
+.afficheTable ul{ width:800px; margin-top:20px; margin-left:160px; overflow:hidden;}
+.afficheTable ul li { height:30px; text-align:left; line-height:30px;}
+.afficheDetail {width:960px; height:400px; margin-top:20px;margin-left:auto;margin-right:auto;}
+.afficheDetailTitle { width:960px; height:30px; margin:0 auto; text-align:center;line-height:30px;}
+.afficheDetailCreaTime { width:960px; height:30px; margin:0 auto; text-align:center; line-height:30px;}
+.afficheDetailContent{ width:600px; height:300px; margin:0 auto; line-height:30px; border:1px solid #CCC;}
+/*商品列表样式*/
+.goodsTwo { width:960px; height:200px; margin:0 auto;}
+.goodsTwoNo{ width:960pa; height:200px; margin:0 auto;text-align:center;line-height:200px}
+.goodsTwoImg { width:160px; height:200px; float:left; text-align:center;}
+.goodsTwoTextarea1 { width:590px; height:200px; float:left; padding-top:10px; overflow: hidden;}
+.goodsTwoTextarea2 { width:200px; height:200px; float:left; padding-top:10px;text-align:center; line-height:30px;}
+/*商品详细信息样式*/
+.goodsThree { width:960px; height:240px; margin:0 auto;}
+.goodsThreeImg { width:160px; height:200px;float:left; text-align:center;}
+.goodsThreeTextare1 { width:300px; height:240px; float:left; text-align:center; line-height:30px;}
+.goodsThreeTextare2 { width:500px; height:240px; float:left; padding-top:5px;}
+/*分页样式*/
+.page { width:80%; height:50px; margin:0 auto;}
+.pageOne { width:20%; float:left; text-align:center; line-height:50px;}
+/*用户留言*/
+.leavewords { width:960px; height:auto; margin:0 auto;}
+.leavewordsNo {width:960px; height:100px; margin:0 auto; text-align:center; line-height:100px;}
+.leavewordsOn {width:960px; height:100px; margin:0 auto; text-align:center; line-height:100px;}
+.account{ width:130px; height:40px; float:left; text-align:center; line-height:40px;}
+.title{ width:130px; height:40px; float:left; text-align:center; line-height:40px;}
+.content{ width:450px; height:40px; float:left; text-align:center; line-height:40px; overflow:hidden;}
+.creaTime{ width:250px; height:40px; float:left; text-align:center; line-height:40px;}
+/*前台表单主体样式*/
+.fgForm { width:960px; height:auto; margin:0 auto; }
+.fgText { width:960px; height:60px; margin:0 auto; font-size:20px;margin-top:10px; text-align:center; line-height:60px;}
+.fgLogo { width:960px; height:60px; margin:0 auto; margin-top:10px; text-align:center;}
+.fgInput {text-align:center; margin-top:10px; margin-left: 0 auto; margin-right: 0 auto;}
+.input3Text {display:inline-block; width:80px; height:30px; text-align:center; line-height:20px; color:#DD0000;}
+.input3 {display:inline-block; width:180px; height:30px; border:1px solid #0099CC;color:#0099CC;}
+.inputA1 {display:block; margin-left:150px;}
+.select1 {display:inline-block; width:184px; height:24px;border:1px solid #0099CC; color:#0099CC;}
+.textarea1 { display:inline-block; width:600px; height:100px; line-height:30px;border:1px solid #0099CC;}
+/*购物车样式*/
+.cart { width:960px; height:auto; margin:0 auto;}
+.cartNo { width:960px; height:200px; margin:0 auto; text-align:center; line-height:200px;}
+.cartText1 { width:192px; height:30px; float:left; text-align:center; line-height:30px;}
+.cartText2 { width:192px; height:40px; float:right; text-align:center; line-height:40px;}
+.cartButtons { width:548px; height:40px; margin:10px auto;}
+.cartButton { width:137px; height:40px; float:left; text-align:center;}
+/*前台图标*/
+.iconFree { width:960px; height:21px; margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px;  text-align:right; background:url(../images/fg_freegoods.gif) no-repeat left;}
+.iconNew { width:960px; height:21px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; text-align:right; background:url(../images/fg_newgoods.gif) no-repeat left;}
+.iconSort { width:960px; height:21px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px;  background:url(../images/fg_sortgoods.gif) no-repeat left;}
+.iconGoods { width:960px; height:21px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_goods.gif) no-repeat left;}
+.iconOne { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_detail.gif) no-repeat left;}
+.iconLogin { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px;  background:url(../images/fg_login.gif) no-repeat left;}
+.iconRegister { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_register.gif) no-repeat left;}
+.iconUpdate { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_update.gif) no-repeat left;}
+.iconCart { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_cart.gif) no-repeat left;}
+.iconOrder { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_order.gif) no-repeat left;}
+.iconLeavewords { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_leavewords.gif) no-repeat left;}
+.iconAffiche { width:960px; height:29px;  margin-top:0;margin-left:auto; margin-right:auto; margin-bottom:10px; background:url(../images/fg_detail.gif) no-repeat left;}
+.iconAd { width:960px; height:76px;  margin:0 auto;background:url(../images/fg_ad.gif) no-repeat left;}
+/*banner样式*/
+div.item img{width:1000px; height:300px;}
+div#carousel-example-generic{width:960px; height:auto; margin:0 auto; background:#FFFFFF;}
+/*后台样式*/
+body.nobg{background:none;}
+/*后台登录样式*/
+.bgLogin { width:560px; height:330px; margin-top:200px;margin-left:auto;margin-right:auto; background:url(../images/bg_login.jpg) no-repeat; overflow:hidden;}
+.bgloginForm { margin-left:40px; margin-top:290px; width:500px; height:30px;}
+.input4Text {display:inline-block; width:70px; height:20px; text-align:center; line-height:20px;}
+.input4 {display:inline-block; width:120px; height:20px; }
+.input4Img {display:inline-block; vertical-align:-3px;}
+/*后台页头样式*/
+#bgUp{ width:960px; height:auto; margin:0 auto;background:#FFFFFF;}
+#bgMain{ width:960px; height:auto; margin:0 auto;background:#FFFFFF;}
+#bgDown{ width:960px; height:60px; margin:0 auto; text-align:center; line-height:20px;background:#666666;}
+#bgLeft{ width:200px; height:auto; float:left;background:#FFFFFF;text-align:center;}
+#bgRight{ width:760px; height:auto; float:left;background:#FFFFFF;}
+/*后台头部样式*/
+.upText1 { width:960px; height:40px; margin:0 auto; text-align:center; line-height:40px; font-size:20px;background:url(../images/bg_up.jpg) no-repeat;}
+.upText2 { width:960px; height:20px; margin:0 auto; text-align:left; line-height:20px;background-color:#000000}
+/*后台左侧栏样式*/
+.leftBox { width:200px; height:60px; margin:0 auto; background:url(../images/bg_left2.jpg) no-repeat;}
+.leftBoxText { width:200px; height:30px; margin:0 auto; text-align:center; line-height:30px;}
+/*后台右侧显示区样式*/
+.bgRightText { width:760; height:50px; margin:10px auto; background:url(../image/bg_1.jpg) no-repeat; text-align:center; font-family:黑体; line-height:50px;}
+.bgRightForm { width:760px; height:auto; margin:0 auto; text-align:center;}
+.bgRightTable { width:760px; height:auto; margin:0 auto; text-align:center;}
+.bgInput {text-align:center; margin:10px auto;}
+.input5Text {display:inline-block; width:100px; height:30px; text-align:center; line-height:30px;}
+.input5 {display:inline-block; width:180px; height:30px; }
+.textarea2{ width:600px; height:auto;margin:10px auto; text-align:left; font-size:20px; line-height:20px; border:1px solid #CCC;}
+.textarea3{ width:600px; height:300px;margin:10px auto; text-align:left; font-size:20px; line-height:20px; border:1px solid #CCC;}
+.input6{ width:150px; height:20px;}
+.input7{width:40px; height:20px;}
+.bgRightTable2 { width:700px; height:auto; margin:0 auto;}
+.bgRightTable2Text1 {width:258px; height:20px; background:#CCC;float:left; border:solid #666666 1px;}
+.bgRightTable2Text2 {width:88px; height:20px; float:left; border:solid #666666 1px;}
+/*有边框表格样式*/
+.tableBorder { margin:0 auto; border:solid #CCC; border-width:1px 0px 0px 1px;}
+.tableBorder td { height:30px; border:solid #CCC; border-width:0px 1px 1px 0px; text-align:center;}
+/*无边框表格样式*/
+.tableNoBorder { margin:0 auto;}
+.tableNoBorder  td { height:30px; text-align:center;}
+
+/*清除浮动*/
+.clear{clear:both;}
+/*颜色*/
+.red {color:#F00;}
+.blue {color:#33CC00;}
+.yellow{color:#9A6634}
+.white{color:#FFFFFF;}
+.black{color:#000;}
+.grey{color:#999999;}
+.lightgrey{color:#CCC;}
+.darkgrey{color:#666666;}
+/*尺寸*/
+.font12 {font-size:12px;}
+.font24 {font-size:24px;}
+.font30 {font-size:30px;}
+/*块级元素和行内元素转换*/
+.block{display:block;}
+.inline{display:inline;}
+/*字体加粗*/
+.bold{font-weight:bold;}
+/*全局超链接样式*/
+a:link { color: #000000; font-size:16px;}
+a:visited { color: #000000; font-size:16px;}
+a:active { color: #FFFFFF; font-size:16px;}
+a:hover { color: #F00; font-size:16px;}
+/*LOGIN部分超链接样式*/
+.a1:link { color: #F00; font-size:30px;}
+.a1:visited { color: #F00; font-size:30px;}
+.a1:active { color: #ffffff; font-size:30px;}
+.a1:hover { color: #F00; font-size:36px;}
+/*对导航栏的超链接的样式*/
+.a2:link { color: #FFFFFF; font-size:16px; font-weight:bold;}
+.a2:visited { color: #FFFFFF; font-size:16px; font-weight:bold;}
+.a2:active { color: #FFFFFF; font-size:16px; font-weight:bold;}
+.a2:hover { color: #FF0000; font-size:18px; font-weight:bold;}
+.a2{text-decoration: none;color: black;}
+/*商品类别超链接样式*/
+.a3:link { color: #000000; font-size:16px;}
+.a3:visited { color: #000000; font-size:16px;}
+.a3:active { color: #666666; font-size:16px;}
+.a3:hover { color: #EE0000; font-size:24px;}
+/*友情超链接样式*/
+.a4:link { color: #FFFFFF; font-size:16px;}
+.a4:visited { color: #FFFFFF; font-size:16px;}
+.a4:active { color: #666666; font-size:16px;}
+.a4:hover { color: #000000; font-size:16px;}
+/*后台登录超链接样式*/
+.a5:link { color: #666666; font-size:16px;}
+.a5:visited { color: #666666; font-size:16px;}
+.a5:active { color: #FFFFFF; font-size:16px;}
+.a5:hover { color: #FFFFFF; font-size:16px;}
+/*登录提醒超链接样式*/
+.a6:link { color: #F00; font-size:16px;}
+.a6:visited { color: #F00; font-size:16px;}
+.a6:active { color: #FFFFFF; font-size:16px;}
+.a6:hover { color: #F00; font-size:20px;}
+/*水平线*/
+.hrRed {width:960px; height:3px;border:none; border-top:3px solid #F00;}
